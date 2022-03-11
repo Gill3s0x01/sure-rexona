@@ -8,14 +8,14 @@
    <a href="https://www.linkedin.com/in/lorison-gilles/">
       <img alt="Lorison Gilles" src="https://img.shields.io/badge/-LorisonGilles-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/products-rexona?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/sure-rexona?color=774DD6">
 
-  <a href="https://github.com/Gilles30/products-rexona/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/products-rexona?color=774DD6">
+  <a href="https://github.com/Gilles30/sure-rexona/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/sure-rexona?color=774DD6">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
-  <a href="https://github.com/Gilles30/products-rexona/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/products-rexona?color=8257E5&logo=github">
+  <a href="https://github.com/Gilles30/sure-rexona/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Gilles30/sure-rexona?color=8257E5&logo=github">
   </a>
 </p>
 
@@ -30,7 +30,7 @@
 <div align="center">
   <sub>Os Produtos Rexona. Construído com ❤︎ por
     <a href="https://github.com/Gilles30">Lorison Gilles</a> e
-    <a href="https://github.com/Gilles30/products-rexona/">
+    <a href="https://github.com/Gilles30/sure-rexona/">
       contribuidores.
     </a>
   </sub>
@@ -89,10 +89,10 @@
 
 # :eyes: Demo Website
 
-Você pode acessar o site em breve. (API em desenvolvimento)
+Você pode acessar o site deployado clicando no icone abaixo:
 👉 demo:
 
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://MEUAPP.vercel.app/) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://sure-rexona.vercel.app/)
 
 # :computer: Tecnologias
 
@@ -104,55 +104,75 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [React](https://reactjs.org/)
 - [Styled-Components](https://www.styled-components.com/)
 - [Json-server](https://github.com/typicode/json-server)
-- [Reactstrap](https://expressjs.com/https://reactstrap.github.io/?path=/story/home-installation--page)
+- [Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+- [Express](https://expressjs.com)
 
 # :rocket: Recursos
 
 - Listagem de produtos.
 - Filtragem dos produtos por sua categoria.
 - Layout responsivo.
+- API para consumo de dados.
 
 # :construction_worker: Como rodar
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/Gilles30/products-rexona.git
+$ git clone https://github.com/Gilles30/sure-rexona.git
 ```
 
 ### 📦 Rodar API
 
+- API API consumed directly from the cloud!
+
 ```bash
-# Go to server folder
-$ cd products-rexona
+# Routes and Endpoint
+$ api-sure.herokuapp.com/data
 
-# Instalar as dependencias
-$ yarn install ou $ yarn
-
-# Rodar o servidor fake
-$ yarn server
+# Object Typing
+$ Data:{
+  nodes
+    {
+      name: string,
+      shortDescription: string
+      id: string
+      images:
+        [
+          {
+            alt: string
+            src: string
+          }
+        ]
+      category:
+        [
+          name: string
+          id: string
+        ]
+    }
+  }
 ```
 
-Access API at http://localhost:3000/data
+Access API at http://api-sure.herokuapp.com/data
 
 ### 💻 Rodar Projeto Web
 
 ```bash
-# Ir para a pasta da web
-$ cd products-rexona
+# Go to web folder
+$ cd sure-rexona
 
-# Instalar dependências (somente se você não instalou as dependências antes)
+# Install Dependencies
 $ yarn
 
-# Executar Aplicativo (Se a porta de acesso estiver ocupada e aparecer a pergunta se deseja alterar a porta, digite Y, para que execute em uma porta secundária)
+# Run Aplication
 $ yarn start
 
 ```
 
-Vá para http://localhost:3001/ para ver o resultado.
+Go to http://localhost:3000
 
 # :bug: Problemas
 
-Sinta-se à vontade para **arquivar uma nova edição** com o respectivo título e descrição no repositório [Proffy](https://github.com/Gilles30/products-rexona/issues). Se você já encontrou uma solução para o seu problema, **eu adoraria analisar sua solicitação de pull**!
+Sinta-se à vontade para **arquivar uma nova edição** com o respectivo título e descrição no repositório [Proffy](https://github.com/Gilles30/sure-rexona.git/issues). Se você já encontrou uma solução para o seu problema, **eu adoraria analisar sua solicitação de pull**!
 
 # :tada: Contribuindo
 
@@ -162,9 +182,9 @@ Confira a página [contribuindo](./CONTRIBUTING.md) para ver os melhores lugares
 
 Siga os passos abaixo para contribuir:
 
-1.  _fork_ o projeto (<https://github.com/Gilles30/products-rexona>)
+1.  _fork_ o projeto (<https://github.com/Gilles30/sure-rexona.git>)
 
-2.  Clone seu _fork_ para sua máquina (`git clone https://github.com/Gilles30/products-rexona.git`)
+2.  Clone seu _fork_ para sua máquina (`git clone https://github.com/Gilles30/sure-rexona.git`)
 
 3.  Crie um _branch_ para realizar sua modificação (`git checkout -b feature/name_new_feature`)
 
