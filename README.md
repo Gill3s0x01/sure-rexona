@@ -159,7 +159,7 @@ Link repo Github: https://github.com/Gilles30/api-sure
 
 ```bash
 # Go to web folder
-$ cd products-rexona
+$ cd sure-rexona
 
 # Install Dependencies (Only if you haven't installed the dependencies before)
 $ yarn
